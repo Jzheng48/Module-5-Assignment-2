@@ -1,0 +1,129 @@
+
+Request: GET /user/signup at Sat Mar 18 2023 01:01:59 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.41
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css"> --> 
+</head>
+
+<body>
+    <main>
+        <form class="product-form" action="/user/signup" method="POST">
+            <div class="form-control">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="password">
+                <label for="confirmPassword">Confim Password:</label>
+                <input type="text" name="confirmPassword" id="confirmPassword">
+            </div>
+            <button class="btn" type="
+Response: 200 223.124 ms 
+
+Request: POST /user/signup at Sat Mar 18 2023 01:02:48 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.41
+Request Body:
+{
+	"name": "NUMBER1",
+	"email": "n1@emial.com",
+	"password": "88888888",
+	"confirmPassword": "88888888"
+}
+Response Body:
+{
+	"name": "NUMBER1",
+	"email": "n1@emial.com",
+	"password": "$2a$10$anYU89lVcmavS79vTSm1JurnmJo8mHuFSJG.YPpykmd0FsPksJjHS",
+	"confirmPassword": "$2a$10$x6UF9UM2SvVd66hgmSow8uKeV7IKyfPeJUDCwRSKPTnpM4CvBI0k.",
+	"_id": "641570276b9343c943316ae7",
+	"date": "2023-03-18T08:02:47.901Z",
+	"tokens": [],
+	"__v": 0
+}
+Response: 200 655.933 ms 
+
+Request: GET /user/signup at Sat Mar 18 2023 01:10:37 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.41
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css"> --> 
+</head>
+
+<body>
+    <main>
+        <form class="product-form" action="/user/signup" method="POST">
+            <div class="form-control">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="password">
+                <label for="confirmPassword">Confim Password:</label>
+                <input type="text" name="confirmPassword" id="confirmPassword">
+            </div>
+            <button class="btn" type="
+Response: 200 3.701 ms 
+
+Request: POST /user/signup at Sat Mar 18 2023 01:11:12 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.41
+Request Body:
+{
+	"name": "jiawei zheng",
+	"email": "jwz@gmail.com",
+	"password": "88888888",
+	"confirmPassword": "88888888"
+}
+Response Body:
+{
+	"name": "jiawei zheng",
+	"email": "jwz@gmail.com",
+	"password": "$2a$10$U/V7IS9.6/iCnjE0e4zM7OHO1wWxWnv1jMIsen65SuS1Y9OaX0SBm",
+	"confirmPassword": "$2a$10$oB30J5gAQbI6VdKpJPRXW.arS1bf4aZi1HVK6IGH44BTmA5e6UVKC",
+	"_id": "641572206b9343c943316ae9",
+	"date": "2023-03-18T08:11:12.503Z",
+	"tokens": [],
+	"__v": 0
+}
+Response: 200 286.660 ms 
+
+Request: GET /user/signup at Sat Mar 18 2023 01:14:44 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.41
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css"> --> 
+</head>
+
+<body>
+    <main>
+        <form class="product-form" action="/user/signup" method="POST">
+            <div class="form-control">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="password">
+                <label for="confirmPassword">Confim Password:</label>
+                <input type="text" name="confirmPassword" id="confirmPassword">
+            </div>
+            <button class="btn" type="
+Response: 200 27.834 ms 
